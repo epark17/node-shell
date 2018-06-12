@@ -8,5 +8,5 @@ process.stdin.on('data', (data) => {
     process.stdout.write('You typed: ' + cmd);
     process.stdout.write('\nprompt > ');
     process.stdout.write(pwd);
-    process.stdout.write(cat(arg));
+    process.stdout.write(cat('fs filename'));
 });
